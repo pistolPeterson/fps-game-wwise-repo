@@ -28,7 +28,7 @@ public class GolemAnimation : MonoBehaviour
    
 
 
-    private void OnAttack()
+    public void OnAttack()
     {
         animator.SetTrigger(attackParameter);
     }
