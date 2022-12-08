@@ -14,8 +14,7 @@ public class GolemAttackState : MonoBehaviour, IGolemBaseState
 
     public void Enter()
     {
-        //make sure golem is playing idle animation
-        FindObjectOfType<GolemAnimation>().OnAttack();
+        gc.GolemAnimation.OnAttack();
     }
 
     public void Exit()
@@ -26,7 +25,16 @@ public class GolemAttackState : MonoBehaviour, IGolemBaseState
     void IGolemBaseState.DoState()
     {
         //go right back to idle state
-        gc.ChangeState(idleState);
+        if (gc.PlayerDetect.IsPlayerInCollider())
+        {
+            //continue
+            //some sort of timer system, where you attack every x amount of sec
+        }
+        else
+        {
+            gc.ChangeState(idleState);
+
+        }
             
     }
 }

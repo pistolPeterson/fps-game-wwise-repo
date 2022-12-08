@@ -676,7 +676,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e280b32785eb14792fb1092a7721d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerDetect: {fileID: 1250984686}
   gc: {fileID: 0}
   attackState: {fileID: 988261243}
 --- !u!1001 &1022098256
@@ -888,6 +887,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2729281213905056072}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1190351107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6060378001726661624, guid: 81e9ed81b2d36bc4192b476c02215348,
+    type: 3}
+  m_PrefabInstance: {fileID: 2028061365}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1190351110
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190351107}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8975115196633587299, guid: 81e9ed81b2d36bc4192b476c02215348, type: 3}
+--- !u!114 &1190351111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190351107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b0ce1bb69c96b49a7ac1098a7f5796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamageMultiplier: 1
+  SensibilityToSelfdamage: 0.5
 --- !u!4 &1212145535 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2141676431450117668, guid: cd17687759887a0438ee021e51abc9d9,
@@ -1744,6 +1777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   golemIdleState: {fileID: 988261244}
+  DebugState: 
 --- !u!1 &2067625534 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4778346531047654936, guid: c1f95b2a073069e4091731002c38a3df,

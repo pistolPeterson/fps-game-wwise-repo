@@ -11,8 +11,14 @@ public class GolemController : MonoBehaviour
 
     public GolemIdleState golemIdleState;
 
+    [SerializeField] private string DebugState;
+    public PlayerDetect PlayerDetect { get; private set; }
+    public GolemAnimation GolemAnimation { get; private set; }
+
     private void OnEnable()
     {
+        PlayerDetect = GetComponentInChildren<PlayerDetect>();
+        GolemAnimation = GetComponent<GolemAnimation>();
         currentState = golemIdleState;
         currentState.Enter();
     }
@@ -21,6 +27,7 @@ public class GolemController : MonoBehaviour
     void Update()
     {
         currentState.DoState();
+        DebugState = currentState.ToString();
     }
 
     public void ChangeState(IGolemBaseState newState)

@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class GolemIdleState : MonoBehaviour, IGolemBaseState
 {
-    [SerializeField] private PlayerDetect playerDetect;
     [SerializeField] private GolemController gc; //potential problem, what if there is multiple bosses?
     [SerializeField] private GolemAttackState attackState;
     private void Start()
@@ -27,7 +26,7 @@ public class GolemIdleState : MonoBehaviour, IGolemBaseState
     void IGolemBaseState.DoState()
     {
         //use player detect to see if player is there, if player is there, go to attack state
-        if (playerDetect.IsPlayerInCollider())
+        if (gc.PlayerDetect.IsPlayerInCollider())
         {
             //change state to attack 
             gc.ChangeState(attackState);
