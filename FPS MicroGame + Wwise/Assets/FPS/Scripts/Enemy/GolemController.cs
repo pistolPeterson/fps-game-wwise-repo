@@ -7,7 +7,7 @@ using UnityEngine;
 /// </summary>
 public class GolemController : MonoBehaviour
 {
-    private IGolemBaseState currentState;
+    public IGolemBaseState currentState;
 
     public GolemIdleState golemIdleState;
 

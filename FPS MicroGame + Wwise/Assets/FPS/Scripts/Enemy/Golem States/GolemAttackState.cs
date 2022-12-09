@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
+using Unity.FPS.Game;
 using UnityEngine;
 
 public class GolemAttackState : MonoBehaviour, IGolemBaseState
@@ -8,8 +9,8 @@ public class GolemAttackState : MonoBehaviour, IGolemBaseState
     [SerializeField] private GolemController gc; //potential problem, what if there is multiple bosses?
     [SerializeField] private GolemIdleState idleState;
 
-    [SerializeField] private bool hasGolemAttacked = false; 
-    
+    [SerializeField] private bool hasGolemAttacked = false;
+    [SerializeField] private float golemAttackDamage = 10f;
     [Header("Attack box area for golem smash attack")] 
     [SerializeField] private Transform smashAttackCenter;
 
@@ -33,13 +34,7 @@ public class GolemAttackState : MonoBehaviour, IGolemBaseState
      void IGolemBaseState.DoState()
     {
         
-        if (!hasGolemAttacked)
-        {
-            Debug.Log("callin golem attack logic");
-            GolemAttackLogic();
-            hasGolemAttacked = true;
-        }
-        Debug.Log("before if statement ");
+       
         //go right back to idle state
         if (gc.PlayerDetect.IsPlayerInCollider() == true)
         {
@@ -56,8 +51,11 @@ public class GolemAttackState : MonoBehaviour, IGolemBaseState
             
     }
 
-     private void GolemAttackLogic()
+     public void GolemAttackLogic()
      {
+         if (hasGolemAttacked) return;
+         if ((GolemAttackState)gc.currentState != this) return;
+         
          //transform.localScale / 2 is half the size of the scale of the gameobject 
          Collider[] hitColliders = Physics.OverlapBox(smashAttackCenter.position, transform.localScale * 3, Quaternion.identity, playerLayer);
          int i = 0;
@@ -68,7 +66,9 @@ public class GolemAttackState : MonoBehaviour, IGolemBaseState
              {
                  Debug.Log("found the player bro");
                  //go to health componenet, and remove health 
-                 //refactor everything to only work when animation palys at specific point
+                 var playerHealth = hitColliders[i].gameObject.GetComponent<Health>();
+                 if (!playerHealth) return;
+                 playerHealth.TakeDamage(golemAttackDamage, null);
              }
              //Increase the number of Colliders in the array
              i++;

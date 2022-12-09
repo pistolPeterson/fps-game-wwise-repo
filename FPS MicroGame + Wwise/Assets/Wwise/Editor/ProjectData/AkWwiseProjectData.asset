@@ -80,8 +80,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 83c459f939e3e94bb95437d89831122c
     GuidInternal: 
-    m_lastTime: -8585314231966941410
-    List: []
+    m_lastTime: -8585309927897387365
+    List:
+    - name: Play_Cymatics___Lofi_Full_Drum_Loop_12___90_BPM
+      guid: 3fc82b986c63c146ac60bad034cd3448
+      id: 3987856402
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 83c459f939e3e94bb95437d89831122c
+      - ElementName: Play_Cymatics___Lofi_Full_Drum_Loop_12___90_BPM
+        ObjectType: 3
+        guid: 3fc82b986c63c146ac60bad034cd3448
+      Path: Events\Default Work Unit\Play_Cymatics___Lofi_Full_Drum_Loop_12___90_BPM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +156,7 @@ MonoBehaviour:
     m_lastTime: -8585314231965495280
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
