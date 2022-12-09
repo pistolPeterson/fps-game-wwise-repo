@@ -25,6 +25,7 @@ namespace Unity.FPS.Game
         public static void CreateSFX(AudioClip clip, Vector3 position, AudioGroups audioGroup, float spatialBlend,
             float rolloffDistanceMin = 1f)
         {
+            return;
             GameObject impactSfxInstance = new GameObject();
             impactSfxInstance.transform.position = position;
             AudioSource source = impactSfxInstance.AddComponent<AudioSource>();
@@ -55,6 +56,7 @@ namespace Unity.FPS.Game
 
         public static void SetMasterVolume(float value)
         {
+            return;
             if (s_AudioManager == null)
                 s_AudioManager = GameObject.FindObjectOfType<AudioManager>();
 

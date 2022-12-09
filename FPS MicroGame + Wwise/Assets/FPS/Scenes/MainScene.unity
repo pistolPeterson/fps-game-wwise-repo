@@ -695,6 +695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gc: {fileID: 0}
   idleState: {fileID: 988261244}
+  hasGolemAttacked: 0
   smashAttackCenter: {fileID: 325981189}
   playerLayer:
     serializedVersion: 2
@@ -1542,6 +1543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1722151011}
   - component: {fileID: 1722151010}
+  - component: {fileID: 1722151012}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -1590,6 +1592,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1722151012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722151009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736f9aa18a9714a44ae31af67d961a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1001 &1771139419
 PrefabInstance:
   m_ObjectHideFlags: 0
