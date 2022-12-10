@@ -13,6 +13,7 @@ public class GolemAnimation : MonoBehaviour
     
     private const string attackParameter = "Attack"; 
     private const string deathParameter = "Death"; 
+    private const string chaseParameter = "Chase"; 
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -26,7 +27,10 @@ public class GolemAnimation : MonoBehaviour
     }
 
    
-
+    public void OnChase()
+    {
+        animator.SetTrigger(chaseParameter);
+    }
 
     public void OnAttack()
     {

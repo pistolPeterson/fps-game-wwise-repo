@@ -57,7 +57,7 @@ public class GolemAttackState : MonoBehaviour, IGolemBaseState
          if ((GolemAttackState)gc.currentState != this) return;
          
          //transform.localScale / 2 is half the size of the scale of the gameobject 
-         Collider[] hitColliders = Physics.OverlapBox(smashAttackCenter.position, transform.localScale * 3, Quaternion.identity, playerLayer);
+         Collider[] hitColliders = Physics.OverlapBox(smashAttackCenter.position, transform.localScale * 4, Quaternion.identity, playerLayer);
          int i = 0;
          //Check when there is a new collider coming into contact with the box
          while (i < hitColliders.Length)

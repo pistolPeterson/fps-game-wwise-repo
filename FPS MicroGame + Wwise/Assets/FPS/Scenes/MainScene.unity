@@ -659,6 +659,7 @@ GameObject:
   - component: {fileID: 988261242}
   - component: {fileID: 988261244}
   - component: {fileID: 988261243}
+  - component: {fileID: 988261245}
   m_Layer: 0
   m_Name: Golem State Machine
   m_TagString: Untagged
@@ -696,6 +697,7 @@ MonoBehaviour:
   gc: {fileID: 0}
   idleState: {fileID: 988261244}
   hasGolemAttacked: 0
+  golemAttackDamage: 10
   smashAttackCenter: {fileID: 325981189}
   playerLayer:
     serializedVersion: 2
@@ -713,6 +715,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gc: {fileID: 0}
+  attackState: {fileID: 988261243}
+  chaseState: {fileID: 988261245}
+  idleDuration: 2.5
+--- !u!114 &988261245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988261241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b288709fefc21fd418038bd543f25e33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gc: {fileID: 0}
+  playerLocation: {fileID: 2729281214152228933}
   attackState: {fileID: 988261243}
 --- !u!1001 &1022098256
 PrefabInstance:
@@ -940,7 +959,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8975115196633587299, guid: 81e9ed81b2d36bc4192b476c02215348, type: 3}
 --- !u!114 &1190351111
@@ -2202,6 +2221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90fabb4c1a67257488090c0d8d398a9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: {fileID: 554489325}
   golemIdleState: {fileID: 988261244}
   DebugState: 
 --- !u!114 &2028061368
@@ -2216,6 +2236,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f00714c844c6ec44a526bbe5a377d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!195 &2028061369
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554489320}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &2067625534 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4778346531047654936, guid: c1f95b2a073069e4091731002c38a3df,
@@ -4133,6 +4175,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Id: b7ef103c-6e78-41af-8322-5ac95ed05882
+--- !u!4 &2729281214152228933 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8746678193447392789, guid: 761cdc9e4e883334cbdcea062d0befa7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2729281214152228920}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2729281214182533258
 PrefabInstance:
   m_ObjectHideFlags: 0
