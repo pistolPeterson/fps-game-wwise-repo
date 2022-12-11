@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3987856402	Play_Cymatics___Lofi_Full_Drum_Loop_12___90_BPM			\Default Work Unit\Play_Cymatics___Lofi_Full_Drum_Loop_12___90_BPM	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	452841012	Cymatics - Lofi Full Drum Loop 12 - 90 BPM	C:\Users\Peter Laptop\Desktop\Unity Projects Desktop\fps-game-wwise-repo\FPS MicroGame + Wwise\FPS MicroGame + Wwise_WwiseProject\.cache\Mac\SFX\Cymatics - Lofi Full Drum Loop 12 - 90 BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Cymatics - Lofi Full Drum Loop 12 - 90 BPM\Cymatics - Lofi Full Drum Loop 12 - 90 BPM		1024096
+

@@ -173,16 +173,7 @@ namespace Unity.FPS.Game
             DebugUtility.HandleErrorIfNullGetComponent<AudioSource, WeaponController>(m_ShootAudioSource, this,
                 gameObject);
 
-            if (UseContinuousShootSound)
-            {
-                m_ContinuousShootAudioSource = gameObject.AddComponent<AudioSource>();
-                m_ContinuousShootAudioSource.playOnAwake = false;
-                m_ContinuousShootAudioSource.clip = ContinuousShootLoopSfx;
-                m_ContinuousShootAudioSource.outputAudioMixerGroup =
-                    AudioUtility.GetAudioGroup(AudioUtility.AudioGroups.WeaponShoot);
-                m_ContinuousShootAudioSource.loop = true;
-            }
-
+           
             if (HasPhysicalBullets)
             {
                 m_PhysicalAmmoPool = new Queue<Rigidbody>(ShellPoolSize);

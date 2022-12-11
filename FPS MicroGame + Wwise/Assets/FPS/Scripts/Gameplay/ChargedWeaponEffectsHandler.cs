@@ -65,20 +65,7 @@ namespace Unity.FPS.Gameplay
         {
             m_LastChargeTriggerTimestamp = 0.0f;
 
-            // The charge effect needs it's own AudioSources, since it will play on top of the other gun sounds
-            m_AudioSource = gameObject.AddComponent<AudioSource>();
-            m_AudioSource.clip = ChargeSound;
-            m_AudioSource.playOnAwake = false;
-            m_AudioSource.outputAudioMixerGroup =
-                AudioUtility.GetAudioGroup(AudioUtility.AudioGroups.WeaponChargeBuildup);
-
-            // create a second audio source, to play the sound with a delay
-            m_AudioSourceLoop = gameObject.AddComponent<AudioSource>();
-            m_AudioSourceLoop.clip = LoopChargeWeaponSfx;
-            m_AudioSourceLoop.playOnAwake = false;
-            m_AudioSourceLoop.loop = true;
-            m_AudioSourceLoop.outputAudioMixerGroup =
-                AudioUtility.GetAudioGroup(AudioUtility.AudioGroups.WeaponChargeLoop);
+          
         }
 
         void SpawnParticleSystem()

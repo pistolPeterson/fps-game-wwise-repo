@@ -22,6 +22,23 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B2076CA4-9C6A-F74A-64BA-067EFDB6B49B}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="452841012" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cymatics - Lofi Full Drum Loop 12 - 90 BPM.wav</ShortName>
+					<CachePath>SFX/Cymatics - Lofi Full Drum Loop 12 - 90 BPM_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3987856402" Name="Play_Cymatics___Lofi_Full_Drum_Loop_12___90_BPM" DurationType="OneShot" DurationMin="5.3333335" DurationMax="5.3333335">
+					<MediaRefs>
+						<MediaRef Id="452841012"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{85FB997E-979E-429B-B6F1-CF88BB808457}</FileHash>
+	<FileHash>{0657870F-E243-1C7C-1E2F-1BC997F202A9}</FileHash>
 </SoundBanksInfo>
