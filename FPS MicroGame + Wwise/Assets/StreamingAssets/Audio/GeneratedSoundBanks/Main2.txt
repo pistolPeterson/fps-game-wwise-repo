@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	523232931	Play_TestBeep_loop			\TestEvents\Play_TestBeep_loop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1009140295	TestBeep_loop	C:\Users\Peter Laptop\Desktop\Wwise Projects\FPS MicroGame + Wwise_WwiseProject\.cache\Windows\SFX\Designed, Drone, Slow Motion, Slowdown, Speedup 10 SND56104_F42967EC.wem		\Actor-Mixer Hierarchy\TestFiles\TestBeep_loop		336880
+

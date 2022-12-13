@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PlatformInfo>
-	<Platform Name="Windows" BasePlatform="Windows" Generator="2022.1.0.8070"/>
+	<Platform Name="Mac" BasePlatform="Mac" Generator="2022.1.0.8070"/>
 	<RootPaths>
-		<ProjectRoot>../../../../FPS MicroGame + Wwise_WwiseProject</ProjectRoot>
-		<SourceFilesRoot>../../../../FPS MicroGame + Wwise_WwiseProject/.cache/Windows</SourceFilesRoot>
+		<ProjectRoot>../../../../../../../Wwise Projects/FPS MicroGame + Wwise_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../../../../Wwise Projects/FPS MicroGame + Wwise_WwiseProject/.cache/Mac</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../FPS MicroGame + Wwise_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../../../Wwise Projects/FPS MicroGame + Wwise_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DefaultAlign>16</DefaultAlign>
 	<Settings>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{D1BE2212-C8C3-3CF6-B7AC-5831C66DC081}</FileHash>
+	<FileHash>{C0809B21-D240-0543-A856-7905AFF03AAC}</FileHash>
 </PlatformInfo>

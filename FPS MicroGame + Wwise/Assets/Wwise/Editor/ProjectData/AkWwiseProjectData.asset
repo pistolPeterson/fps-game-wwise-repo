@@ -38,8 +38,165 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2552060531e4ba4ea7696ba9ce57619c
     GuidInternal: 
-    m_lastTime: -8585314231967090970
+    m_lastTime: -8585307952433430759
     List:
+    - name: 2DAmbience
+      guid: 14ba3e75e9bc2343b018d12a485688ba
+      id: 309309195
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: AmbientMaster
+        ObjectType: 2
+        guid: 6cb85edede8b79469652ff15bfa8b093
+      - ElementName: 2DAmbience
+        ObjectType: 2
+        guid: 14ba3e75e9bc2343b018d12a485688ba
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AmbientMaster\2DAmbience
+    - name: 3DAmbience
+      guid: 1e1519cefe4e9c4eadf700a9da5d4fa8
+      id: 1301074112
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: AmbientMaster
+        ObjectType: 2
+        guid: 6cb85edede8b79469652ff15bfa8b093
+      - ElementName: 3DAmbience
+        ObjectType: 2
+        guid: 1e1519cefe4e9c4eadf700a9da5d4fa8
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AmbientMaster\3DAmbience
+    - name: AmbientMaster
+      guid: 6cb85edede8b79469652ff15bfa8b093
+      id: 1459460693
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: AmbientMaster
+        ObjectType: 2
+        guid: 6cb85edede8b79469652ff15bfa8b093
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AmbientMaster
+    - name: EnemyMaster
+      guid: affbde80bd32754bbec13717b63170bc
+      id: 3408775801
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: EnemyMaster
+        ObjectType: 2
+        guid: affbde80bd32754bbec13717b63170bc
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\EnemyMaster
+    - name: Golem
+      guid: b336e10d250f12419a04d7edb3ff7c82
+      id: 3623907463
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: EnemyMaster
+        ObjectType: 2
+        guid: affbde80bd32754bbec13717b63170bc
+      - ElementName: Golem
+        ObjectType: 2
+        guid: b336e10d250f12419a04d7edb3ff7c82
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\EnemyMaster\Golem
+    - name: Jetpack
+      guid: 1be179871c60c847ad1820682f7dcc7b
+      id: 2680315389
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: PlayerMaster
+        ObjectType: 2
+        guid: 295ba7c51b858341b1685b4c8674dc20
+      - ElementName: Jetpack
+        ObjectType: 2
+        guid: 1be179871c60c847ad1820682f7dcc7b
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PlayerMaster\Jetpack
+    - name: Jump
+      guid: 93feb5ddfd68724886a5b9766dcdd400
+      id: 3833651337
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: PlayerMaster
+        ObjectType: 2
+        guid: 295ba7c51b858341b1685b4c8674dc20
+      - ElementName: PlayerLocomotion
+        ObjectType: 2
+        guid: 30e5fb2bbff06745b501730a1d45e5f5
+      - ElementName: Jump
+        ObjectType: 2
+        guid: 93feb5ddfd68724886a5b9766dcdd400
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion\Jump
+    - name: LargeRoom
+      guid: 835bef32513759468ba3b2d879fc8e94
+      id: 187046019
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: ed70d929c681df4d85f996a6dfd2433e
+      - ElementName: LargeRoom
+        ObjectType: 1
+        guid: 835bef32513759468ba3b2d879fc8e94
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -54,6 +211,140 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: MediumRoom
+      guid: eb50794754d115459e054afa39caa929
+      id: 1245295233
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: ed70d929c681df4d85f996a6dfd2433e
+      - ElementName: MediumRoom
+        ObjectType: 1
+        guid: eb50794754d115459e054afa39caa929
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\MediumRoom
+    - name: PlayerFootsteps
+      guid: a52f6bdca1f0a54a949b61597002ae47
+      id: 1681012287
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: PlayerMaster
+        ObjectType: 2
+        guid: 295ba7c51b858341b1685b4c8674dc20
+      - ElementName: PlayerLocomotion
+        ObjectType: 2
+        guid: 30e5fb2bbff06745b501730a1d45e5f5
+      - ElementName: PlayerFootsteps
+        ObjectType: 2
+        guid: a52f6bdca1f0a54a949b61597002ae47
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion\PlayerFootsteps
+    - name: PlayerLocomotion
+      guid: 30e5fb2bbff06745b501730a1d45e5f5
+      id: 2343802269
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: PlayerMaster
+        ObjectType: 2
+        guid: 295ba7c51b858341b1685b4c8674dc20
+      - ElementName: PlayerLocomotion
+        ObjectType: 2
+        guid: 30e5fb2bbff06745b501730a1d45e5f5
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion
+    - name: PlayerMaster
+      guid: 295ba7c51b858341b1685b4c8674dc20
+      id: 3538689948
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: PlayerMaster
+        ObjectType: 2
+        guid: 295ba7c51b858341b1685b4c8674dc20
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PlayerMaster
+    - name: Reverbs
+      guid: ed70d929c681df4d85f996a6dfd2433e
+      id: 3545700988
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: ed70d929c681df4d85f996a6dfd2433e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs
+    - name: SmallRoom
+      guid: 7f31c98c9fd0c7498c5fce67e81c6f7a
+      id: 2933838247
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: ed70d929c681df4d85f996a6dfd2433e
+      - ElementName: SmallRoom
+        ObjectType: 1
+        guid: 7f31c98c9fd0c7498c5fce67e81c6f7a
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\SmallRoom
+    - name: UIMaster
+      guid: 9aaa1f21fc9e0f4199a9d0849805ab25
+      id: 1992125169
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2552060531e4ba4ea7696ba9ce57619c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: UIMaster
+        ObjectType: 2
+        guid: 9aaa1f21fc9e0f4199a9d0849805ab25
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UIMaster
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +357,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 1b0252f7673a3746bd259ad792cd6c48
     GuidInternal: 
-    m_lastTime: -8585308771362349577
+    m_lastTime: -8585306467572484450
     List:
     - name: Main
       guid: a26c8338b162fa4e9d0187c2824a9bb9
@@ -110,6 +401,120 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3fc82b986c63c146ac60bad034cd3448
       Path: Events\Default Work Unit\Play_Cymatics___Lofi_Full_Drum_Loop_12___90_BPM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Enemies\Golem.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Enemies
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Golem
+      ObjectType: 12
+      guid: 3bb653612ce1314c820d49295cc54898
+    ParentPath: Events\Enemies\Golem
+    guid: 3bb653612ce1314c820d49295cc54898
+    GuidInternal: 
+    m_lastTime: -8585307158988488338
+    List: []
+  - PhysicalPath: Events\TestEvents.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: TestEvents
+      ObjectType: 12
+      guid: 6fcb4f5b7183034c97f1bbf3d1ba179a
+    ParentPath: Events\TestEvents
+    guid: 6fcb4f5b7183034c97f1bbf3d1ba179a
+    GuidInternal: 
+    m_lastTime: -8585307146302064797
+    List:
+    - name: Play_Stop_TestBeep_3D
+      guid: 5c4253e45adf3348b1d8665b6e869d59
+      id: 2141710033
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TestEvents
+        ObjectType: 12
+        guid: 6fcb4f5b7183034c97f1bbf3d1ba179a
+      - ElementName: Play_Stop_TestBeep_3D
+        ObjectType: 3
+        guid: 5c4253e45adf3348b1d8665b6e869d59
+      Path: Events\TestEvents\Play_Stop_TestBeep_3D
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TestBeep
+      guid: 390575702373aa40896061e179aeea98
+      id: 1955951874
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TestEvents
+        ObjectType: 12
+        guid: 6fcb4f5b7183034c97f1bbf3d1ba179a
+      - ElementName: Play_TestBeep
+        ObjectType: 3
+        guid: 390575702373aa40896061e179aeea98
+      Path: Events\TestEvents\Play_TestBeep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TestBeep_3D
+      guid: 08c9d59666513f4eac73a01b50740cf3
+      id: 1681067324
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TestEvents
+        ObjectType: 12
+        guid: 6fcb4f5b7183034c97f1bbf3d1ba179a
+      - ElementName: Play_TestBeep_3D
+        ObjectType: 3
+        guid: 08c9d59666513f4eac73a01b50740cf3
+      Path: Events\TestEvents\Play_TestBeep_3D
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TestBeep_loop
+      guid: 7d700ad7f24edf4e90e5d93ac4d7e43b
+      id: 523232931
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TestEvents
+        ObjectType: 12
+        guid: 6fcb4f5b7183034c97f1bbf3d1ba179a
+      - ElementName: Play_TestBeep_loop
+        ObjectType: 3
+        guid: 7d700ad7f24edf4e90e5d93ac4d7e43b
+      Path: Events\TestEvents\Play_TestBeep_loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TestBeep_loop_Stop
+      guid: 4437fa7c14cde74ea892ce6d63b8e6fa
+      id: 4104577358
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TestEvents
+        ObjectType: 12
+        guid: 6fcb4f5b7183034c97f1bbf3d1ba179a
+      - ElementName: Play_TestBeep_loop_Stop
+        ObjectType: 3
+        guid: 4437fa7c14cde74ea892ce6d63b8e6fa
+      Path: Events\TestEvents\Play_TestBeep_loop_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -169,8 +574,8 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585314231965495280
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000a0000000b000000
+  ExpandedFileSystemItemIds: 0200000007000000
+  ExpandedWaapiItemIds: 05000000080000000b0000000d000000110000001200000013000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

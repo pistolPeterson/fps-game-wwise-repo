@@ -1,6 +1,13 @@
 Event	ID	Name			Wwise Object Path	Notes
+	523232931	Play_TestBeep_loop			\TestEvents\Play_TestBeep_loop	
+	1681067324	Play_TestBeep_3D			\TestEvents\Play_TestBeep_3D	
+	1955951874	Play_TestBeep			\TestEvents\Play_TestBeep	
+	2141710033	Play_Stop_TestBeep_3D			\TestEvents\Play_Stop_TestBeep_3D	
 	3987856402	Play_Cymatics___Lofi_Full_Drum_Loop_12___90_BPM			\Default Work Unit\Play_Cymatics___Lofi_Full_Drum_Loop_12___90_BPM	
+	4104577358	Play_TestBeep_loop_Stop			\TestEvents\Play_TestBeep_loop_Stop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	452841012	Cymatics - Lofi Full Drum Loop 12 - 90 BPM	C:\Users\Peter Laptop\Desktop\Unity Projects Desktop\fps-game-wwise-repo\FPS MicroGame + Wwise\FPS MicroGame + Wwise_WwiseProject\.cache\Mac\SFX\Cymatics - Lofi Full Drum Loop 12 - 90 BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Cymatics - Lofi Full Drum Loop 12 - 90 BPM\Cymatics - Lofi Full Drum Loop 12 - 90 BPM		1024096
+	427268943	TestBeep	C:\Users\Peter Laptop\Desktop\Wwise Projects\FPS MicroGame + Wwise_WwiseProject\.cache\Mac\SFX\User Interface, Beep, Notifications, Clean, Calm Tone, Select SND44945 2_10C4C929.wem		\Actor-Mixer Hierarchy\TestFiles\TestBeep		207628
+	452841012	Cymatics - Lofi Full Drum Loop 12 - 90 BPM	C:\Users\Peter Laptop\Desktop\Wwise Projects\FPS MicroGame + Wwise_WwiseProject\.cache\Mac\SFX\Cymatics - Lofi Full Drum Loop 12 - 90 BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Cymatics - Lofi Full Drum Loop 12 - 90 BPM\Cymatics - Lofi Full Drum Loop 12 - 90 BPM		1024096
+	1009140295	TestBeep_loop	C:\Users\Peter Laptop\Desktop\Wwise Projects\FPS MicroGame + Wwise_WwiseProject\.cache\Mac\SFX\Designed, Drone, Slow Motion, Slowdown, Speedup 10 SND56104_F42967EC.wem		\Actor-Mixer Hierarchy\TestFiles\TestBeep_loop		336880
 
